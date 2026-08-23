@@ -68,11 +68,11 @@ npx vibebreaker prompt
 
 ```mermaid
 flowchart LR
-    A[AI says<br/>"it works"] --> B[Passes 01–19<br/>attack the repo]
-    B --> C[Pass 20<br/>adversarial verifier]
-    C --> D{Evidence survives?}
+    A[AI says it works] --> B[Passes 01 to 19 audit the repo]
+    B --> C[Pass 20 adversarial verifier]
+    C --> D{Evidence survives}
     D -->|Yes| E[CONFIRMED]
-    D -->|Need context| F[UNVERIFIED]
+    D -->|Needs context| F[UNVERIFIED]
     D -->|No| G[REJECTED]
     E --> H[Final verdict]
     F --> H
