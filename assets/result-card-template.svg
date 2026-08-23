@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="VibeBreaker result card template">
+  <rect width="1200" height="675" fill="#0A0A0A"/>
+  <rect x="54" y="54" width="1092" height="567" fill="#111111" stroke="#2A2A2A"/>
+  <text x="94" y="116" fill="#F2F0E9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="700">VIBE//BREAKER</text>
+  <text x="1106" y="116" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" text-anchor="end">20/20 CHALLENGE</text>
+
+  <text x="94" y="222" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17">VERDICT</text>
+  <text x="94" y="286" fill="#FFB000" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="800">&lt;VERDICT&gt;</text>
+
+  <line x1="94" y1="328" x2="1106" y2="328" stroke="#2A2A2A"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="94" y="382" fill="#777777" font-size="16">PASSES</text><text x="94" y="423" fill="#F2F0E9" font-size="30" font-weight="700">&lt;20/20&gt;</text>
+    <text x="314" y="382" fill="#777777" font-size="16">CRITICAL</text><text x="314" y="423" fill="#FF3B30" font-size="30" font-weight="700">&lt;0&gt;</text>
+    <text x="534" y="382" fill="#777777" font-size="16">HIGH</text><text x="534" y="423" fill="#FFB000" font-size="30" font-weight="700">&lt;0&gt;</text>
+    <text x="754" y="382" fill="#777777" font-size="16">CONFIRMED</text><text x="754" y="423" fill="#F2F0E9" font-size="30" font-weight="700">&lt;0&gt;</text>
+    <text x="974" y="382" fill="#777777" font-size="16">UNVERIFIED</text><text x="974" y="423" fill="#F2F0E9" font-size="30" font-weight="700">&lt;0&gt;</text>
+  </g>
+
+  <text x="94" y="502" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">FIRST BREAK</text>
+  <text x="94" y="543" fill="#F2F0E9" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="700">&lt;PASS / NONE&gt;</text>
+
+  <text x="94" y="590" fill="#42D66B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">NO VIBES. EVIDENCE.</text>
+  <text x="1106" y="590" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="end">20/20 CLEAN? PROVE IT.</text>
+</svg>

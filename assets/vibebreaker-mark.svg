@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="VibeBreaker mark">
+  <rect width="512" height="512" rx="56" fill="#0A0A0A"/>
+  <path d="M82 116 L198 396 L256 256 L314 396 L430 116 H354 L314 238 L256 92 L198 238 L158 116 Z" fill="#F2F0E9"/>
+  <rect x="235" y="85" width="22" height="342" transform="rotate(24 246 256)" fill="#FF3B30"/>
+</svg>

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="VibeBreaker — Your AI said it works. Make it prove it.">
+  <rect width="1280" height="640" fill="#0A0A0A"/>
+  <rect x="48" y="48" width="1184" height="544" rx="2" fill="#111111" stroke="#2A2A2A"/>
+  <text x="88" y="112" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" letter-spacing="2">VIBE//BREAKER · THE 20-PASS PROTOCOL</text>
+  <text x="88" y="220" fill="#F2F0E9" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">YOUR AI SAID “IT WORKS.”</text>
+  <text x="88" y="292" fill="#F2F0E9" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">MAKE IT PROVE IT.</text>
+  <text x="88" y="346" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22">SECURITY · CORRECTNESS · RELIABILITY · SCALE</text>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15" text-anchor="middle">
+    <g fill="#0A0A0A" stroke="#343434">
+      <rect x="88" y="400" width="88" height="48"/><rect x="184" y="400" width="88" height="48"/><rect x="280" y="400" width="88" height="48"/><rect x="376" y="400" width="88" height="48"/><rect x="472" y="400" width="88" height="48"/>
+      <rect x="88" y="456" width="88" height="48"/><rect x="184" y="456" width="88" height="48"/><rect x="280" y="456" width="88" height="48"/><rect x="376" y="456" width="88" height="48"/><rect x="472" y="456" width="88" height="48"/>
+      <rect x="568" y="400" width="88" height="48"/><rect x="664" y="400" width="88" height="48"/><rect x="760" y="400" width="88" height="48"/><rect x="856" y="400" width="88" height="48"/><rect x="952" y="400" width="88" height="48"/>
+      <rect x="568" y="456" width="88" height="48"/><rect x="664" y="456" width="88" height="48"/><rect x="760" y="456" width="88" height="48"/><rect x="856" y="456" width="88" height="48"/><rect x="952" y="456" width="88" height="48"/>
+    </g>
+    <g fill="#F2F0E9">
+      <text x="132" y="430">01</text><text x="228" y="430">02</text><text x="324" y="430">03</text><text x="420" y="430">04</text><text x="516" y="430">05</text>
+      <text x="132" y="486">06</text><text x="228" y="486">07</text><text x="324" y="486">08</text><text x="420" y="486">09</text><text x="516" y="486">10</text>
+      <text x="612" y="430">11</text><text x="708" y="430">12</text><text x="804" y="430">13</text><text x="900" y="430">14</text><text x="996" y="430">15</text>
+      <text x="612" y="486">16</text><text x="708" y="486">17</text><text x="804" y="486">18</text><text x="900" y="486">19</text><text x="996" y="486">20</text>
+    </g>
+  </g>
+
+  <rect x="1080" y="400" width="112" height="104" fill="#FF3B30"/>
+  <text x="1136" y="439" fill="#0A0A0A" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700" text-anchor="middle">VERIFY</text>
+  <text x="1136" y="475" fill="#0A0A0A" font-family="Arial, Helvetica, sans-serif" font-size="31" font-weight="800" text-anchor="middle">20</text>
+
+  <text x="88" y="552" fill="#42D66B" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="19" font-weight="700">NO VIBES. EVIDENCE.</text>
+  <text x="1192" y="552" fill="#777777" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" text-anchor="end">20/20 CLEAN? PROVE IT.</text>
+</svg>
