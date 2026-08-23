@@ -1,6 +1,16 @@
 <p align="center">
   <img src="assets/vibebreaker-hero.svg" alt="VibeBreaker — Your AI said it works. Make it prove it." width="100%" />
 </p>
+<p align="center">
+  <strong>Install in seconds</strong>
+</p>
+
+```bash
+npx vibebreaker init
+npx vibebreaker init
+npx vibebreaker doctor
+npx vibebreaker prompt
+
 
 <p align="center">
   <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
