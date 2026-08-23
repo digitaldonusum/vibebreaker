@@ -1,21 +1,6 @@
 <p align="center">
   <img src="assets/vibebreaker-hero.svg" alt="VibeBreaker — Your AI said it works. Make it prove it." width="100%" />
 </p>
-<p align="center">
-  <strong>Install in seconds</strong>
-</p>
-
-```bash
-npx vibebreaker init
-npx vibebreaker init
-npx vibebreaker doctor
-npx vibebreaker prompt
-
-
-<p align="center">
-  <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
-  Security · Correctness · Reliability · Scale
-</p>
 
 <p align="center">
   <a href="README.md">English</a> ·
@@ -23,6 +8,9 @@ npx vibebreaker prompt
 </p>
 
 <p align="center">
+  <a href="https://www.npmjs.com/package/vibebreaker"><img src="https://img.shields.io/npm/v/vibebreaker?label=npm&color=111111" alt="npm version" /></a>
+  <a href="https://www.npmjs.com/package/vibebreaker"><img src="https://img.shields.io/npm/dm/vibebreaker?color=111111" alt="npm downloads" /></a>
+  <a href="https://github.com/digitaldonusum/vibebreaker/stargazers"><img src="https://img.shields.io/github/stars/digitaldonusum/vibebreaker?style=flat&color=111111" alt="GitHub stars" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111111" alt="MIT License" /></a>
   <img src="assets/20-pass-badge.svg" alt="20-pass protocol" />
 </p>
@@ -33,7 +21,29 @@ npx vibebreaker prompt
 
 VibeBreaker is an agent-agnostic, evidence-first audit protocol for AI/vibe-coded software. It attacks a repository from 20 different failure angles — injection, IDOR, race conditions, N+1 queries, idempotency, transaction boundaries, memory growth, failure paths, API contracts, test gaps, and more — then uses a final adversarial verifier to reject false positives.
 
-**No vibes. Evidence.**
+<p align="center">
+  <strong>20 passes. One verifier. No vibes. Evidence.</strong>
+</p>
+
+## Install in seconds
+
+```bash
+npx vibebreaker init
+```
+
+## Quick start
+
+```bash
+npx vibebreaker init
+npx vibebreaker doctor
+npx vibebreaker prompt
+```
+
+- `init` creates a local `.vibebreaker/` workspace containing the protocol, all 20 passes, templates, configuration, and a ready-to-copy agent prompt.
+- `doctor` verifies that the workspace is complete.
+- `prompt` prints the exact instruction to give your coding agent.
+
+The audit remains agent-agnostic: VibeBreaker does not silently choose a model or send your source code to a third-party API.
 
 > VibeBreaker is not a replacement for SAST/SCA/DAST, a professional pentest, load testing, or production monitoring. It is a disciplined white-box review protocol for coding agents.
 
@@ -46,24 +56,6 @@ Run all 20 passes. Pass 20 tries to disprove the other 19. If you finish with no
 **20/20 clean? Prove it.**
 
 Share the result card or open a [`20/20 Challenge` issue](.github/ISSUE_TEMPLATE/share-result.yml).
-
-## CLI
-
-The v0.2 CLI packages the protocol into the project you want to audit.
-
-```bash
-npx vibebreaker init
-npx vibebreaker doctor
-npx vibebreaker prompt
-```
-
-`init` creates a local `.vibebreaker/` workspace containing the protocol, all 20 passes, templates, configuration, and a ready-to-copy agent prompt.
-
-`doctor` verifies that the workspace is complete.
-
-`prompt` prints the exact instruction to give your coding agent.
-
-The audit itself remains agent-agnostic: VibeBreaker does not silently choose a model or send your source code to a third-party API.
 
 ## Run it manually
 
