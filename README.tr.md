@@ -2,6 +2,18 @@
   <img src="assets/vibebreaker-hero.svg" alt="VibeBreaker" width="100%" />
 </p>
 
+<p align="center">
+  <strong>Languages:</strong>
+  <a href="README.md">English</a> ·
+  <a href="README.tr.md">Türkçe</a> ·
+  <a href="README.zh-CN.md">简体中文</a> ·
+  <a href="README.pt-BR.md">Português (Brasil)</a> ·
+  <a href="README.ja.md">日本語</a> ·
+  <a href="README.es.md">Español</a> ·
+  <a href="README.ko.md">한국어</a> ·
+  <a href="README.de.md">Deutsch</a>
+</p>
+
 # VibeBreaker
 
 **AI “çalışıyor” dedi. Kanıtlasın.**
