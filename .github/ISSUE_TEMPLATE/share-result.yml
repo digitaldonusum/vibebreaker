@@ -1,0 +1,50 @@
+name: Share a VibeBreaker result
+description: Share your 20-Pass Protocol audit result
+title: "[20/20 Challenge] "
+labels:
+  - challenge
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## VibeBreaker 20/20 Challenge
+
+        Ran the protocol? Share what broke.
+
+  - type: input
+    id: project
+    attributes:
+      label: Project
+      description: What did you audit?
+      placeholder: Next.js + Supabase SaaS
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Verdict
+      options:
+        - BROKEN
+        - FIX BEFORE SHIP
+        - SURVIVED
+        - 20/20 CLEAN
+    validations:
+      required: true
+
+  - type: input
+    id: first-break
+    attributes:
+      label: First break
+      placeholder: "Pass #03 — Authorization / IDOR"
+
+  - type: textarea
+    id: findings
+    attributes:
+      label: Findings
+      description: What did VibeBreaker find?
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
