@@ -1,16 +1,15 @@
 <p align="center">
   <img src="assets/vibebreaker-hero.svg" alt="VibeBreaker — Your AI said it works. Make it prove it." width="100%" />
 </p>
+
 <p align="center">
   <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
   Security · Correctness · Reliability · Scale
-</p> <p align="center">
+</p>
+
+<p align="center">
   <a href="README.md">English</a> ·
   <a href="README.tr.md">Türkçe</a>
-</p>
-<p align="center">
-  <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
-  Security · Correctness · Reliability · Scale
 </p>
 
 <p align="center">
@@ -38,9 +37,27 @@ Run all 20 passes. Pass 20 tries to disprove the other 19. If you finish with no
 
 Share the result card or open a [`20/20 Challenge` issue](.github/ISSUE_TEMPLATE/share-result.yml).
 
-## Run it
+## CLI
 
-From the root of the project you want to audit, give your coding agent the VibeBreaker repository or copy the protocol files into the project, then instruct it:
+The v0.2 CLI packages the protocol into the project you want to audit.
+
+```bash
+npx vibebreaker init
+npx vibebreaker doctor
+npx vibebreaker prompt
+```
+
+`init` creates a local `.vibebreaker/` workspace containing the protocol, all 20 passes, templates, configuration, and a ready-to-copy agent prompt.
+
+`doctor` verifies that the workspace is complete.
+
+`prompt` prints the exact instruction to give your coding agent.
+
+The audit itself remains agent-agnostic: VibeBreaker does not silently choose a model or send your source code to a third-party API.
+
+## Run it manually
+
+If you do not want to use the CLI, give your coding agent the VibeBreaker repository or copy the protocol files into the project, then instruct it:
 
 ```text
 Run the full VibeBreaker 20-Pass Protocol defined in AUDIT_PROTOCOL.md.
@@ -162,6 +179,9 @@ Do not let the auditing agent silently patch code while it is still gathering ev
 
 ```text
 vibebreaker/
+├── bin/                     # CLI entrypoint
+├── src/                     # CLI implementation
+├── test/                    # Node tests
 ├── README.md
 ├── README.tr.md
 ├── AGENTS.md
@@ -169,7 +189,6 @@ vibebreaker/
 ├── PROMPT_PACK.md
 ├── BRAND.md
 ├── CHALLENGE.md
-├── GITHUB_SETUP.md
 ├── prompts/                 # 20 focused passes
 ├── templates/               # finding + final report contracts
 ├── assets/                  # hero, badge, result-card assets
