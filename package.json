@@ -1,0 +1,40 @@
+{
+  "name": "vibebreaker",
+  "version": "0.2.0",
+  "description": "20-pass adversarial audit protocol for vibe-coded software",
+  "type": "module",
+  "bin": {
+    "vibebreaker": "./bin/vibebreaker.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "AUDIT_PROTOCOL.md",
+    "PROMPT_PACK.md",
+    "prompts",
+    "templates"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node ./bin/vibebreaker.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "vibe-coding",
+    "security-audit",
+    "code-review",
+    "coding-agents",
+    "devsecops"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/digitaldonusum/vibebreaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digitaldonusum/vibebreaker/issues"
+  },
+  "homepage": "https://github.com/digitaldonusum/vibebreaker#readme"
+}
