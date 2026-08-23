@@ -3,6 +3,13 @@
 </p>
 
 <p align="center">
+  <img src="assets/vibebreaker-demo.gif" alt="VibeBreaker terminal demo" width="100%" />
+</p>
+<p align="center">
+  <strong>Zero-install CLI:</strong> init → doctor → prompt
+</p>
+
+<p align="center">
   <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
   Security · Correctness · Reliability · Scale
 </p>
