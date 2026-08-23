@@ -1,7 +1,13 @@
 <p align="center">
   <img src="assets/vibebreaker-hero.svg" alt="VibeBreaker — Your AI said it works. Make it prove it." width="100%" />
 </p>
-
+<p align="center">
+  <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
+  Security · Correctness · Reliability · Scale
+</p> <p align="center">
+  <a href="README.md">English</a> ·
+  <a href="README.tr.md">Türkçe</a>
+</p>
 <p align="center">
   <strong>20 adversarial passes between “it works” and “ship it.”</strong><br/>
   Security · Correctness · Reliability · Scale
