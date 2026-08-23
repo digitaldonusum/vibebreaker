@@ -19,6 +19,11 @@ async function exists(path) {
   }
 }
 
+async function getPackageVersion() {
+  const pkg = JSON.parse(await readFile(join(packageRoot, 'package.json'), 'utf8'));
+  return pkg.version;
+}
+
 async function copyRequired(source, target) {
   if (!(await exists(source))) throw new Error(`Missing packaged file: ${source}`);
   await cp(source, target, { recursive: true, force: true });
@@ -36,7 +41,7 @@ async function initProject(cwd) {
 
   const config = {
     protocol: 'VibeBreaker 20-Pass Protocol',
-    version: '0.2.0',
+    version: await getPackageVersion(),
     mode: 'FULL',
     output: '.vibebreaker/FINAL_REPORT.md',
     readOnlyAudit: true
@@ -105,7 +110,7 @@ export async function runCli(args, cwd = process.cwd()) {
       return help();
     case '--version':
     case '-v':
-      console.log('0.2.0');
+      console.log(await getPackageVersion());
       return;
     default:
       help();

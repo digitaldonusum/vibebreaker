@@ -1,11 +1,9 @@
 {
   "name": "vibebreaker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "20-pass adversarial audit protocol for vibe-coded software",
   "type": "module",
-  "bin": {
-    "vibebreaker": "./bin/vibebreaker.js"
-  },
+  "bin": "bin/vibebreaker.js",
   "files": [
     "bin",
     "src",
